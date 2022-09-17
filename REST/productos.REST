@@ -1,0 +1,29 @@
+
+### Pruebas Admin Productos
+
+### Get GET http://localhost:8080/api/productos HTTP/1.1 content-type:application/json
+
+### Get con id GET http://localhost:8080/api/productos/1 HTTP/1.1 content-type:application/json
+
+### Post POST http://localhost:8080/api/productos HTTP/1.1 content-type:application/json
+{
+    "nombre": "Tabaco Flandria Black",
+    "precio": 850,
+    "descripcion": "Tabaco intenso",
+    "codigo": 2585500685,
+    "stock": 10,
+    "thumbnail": "https://parainfernalia.com.ar/wp-content/uploads/2017/08/flandria-tabaco-negro-grow-shop.jpg"
+}
+
+### Put PUT http://localhost:8080/api/productos/1 HTTP/1.1 content-type:application/json
+
+{
+    "nombre": "Tabaco Flandria Sauvage",
+    "precio": 1000,
+    "descripcion": "Tabaco suave natural",
+    "codigo": 1255585002,
+    "stock": 3,
+    "thumbnail": "https://parainfernalia.com.ar/wp-content/uploads/2017/08/flandria-sauvage-tabaco-venta.jpg"
+}
+
+### Delete DELETE http://localhost:8080/api/productos/2 HTTP/1.1 content-type:application/json

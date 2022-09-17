@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "timestamp": "2022-08-24T12:00:00.000Z",
+        "products": [
+            {
+                "id": 1,
+                "timestamp": "2022-08-24T12:00:00.000Z",
+                "nombre": "Tabaco Flandria Sauvage",
+                "precio": 850,
+                "descripcion": "Tabaco suave",
+                "codigo": 1255585002,
+                "stock": 10,
+                "thumbnail": "https://parainfernalia.com.ar/wp-content/uploads/2017/08/flandria-sauvage-tabaco-venta.jpg"
+            },
+            {
+                "id": 2,
+                "timestamp": "2022-08-24T12:00:00.000Z",
+                "nombre": "Tabaco Flandria Vainilla",
+                "precio": 850,
+                "descripcion": "Tabaco sabor vainilla",
+                "codigo": 5522458000,
+                "stock": 5,
+                "thumbnail": "https://parainfernalia.com.ar/wp-content/uploads/2017/08/flandria-tabaco-vainilla-fumador.jpg"
+            }
+        ]
+    }
+]

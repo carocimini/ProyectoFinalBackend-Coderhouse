@@ -1,0 +1,35 @@
+### Pruebas Carrito
+
+### Post crea carrito POST http://localhost:8080/api/carrito HTTP/1.1 content-type:application/json
+{
+    "id": 2, "timestamp": "2022-08-24T12:00:00.000Z", "productos":  [
+            {
+                "id": 1,
+                "timestamp": "2022-08-24T12:00:00.000Z",
+                "nombre": "Tabaco Flandria Sauvage",
+                "precio": 850,
+                "descripcion": "Tabaco suave",
+                "codigo": 1255585002,
+                "stock": 5,
+                "thumbnail": "https://parainfernalia.com.ar/wp-content/uploads/2017/08/flandria-sauvage-tabaco-venta.jpg"
+            },
+            {
+                "id": 2,
+                "timestamp": "2022-08-24T12:00:00.000Z",
+                "nombre": "Tabaco Flandria Vainilla",
+                "precio": 850,
+                "descripcion": "Tabaco sabor vainilla",
+                "codigo": 5522458000,
+                "stock": 2,
+                "thumbnail": "https://parainfernalia.com.ar/wp-content/uploads/2017/08/flandria-tabaco-vainilla-fumador.jpg"
+            }
+        ]
+}
+
+### Get con id carrito GET http://localhost:8080/api/carrito/1/productos HTTP/1.1 content-type:application/json
+
+### Post con id producto POST http://localhost:8080/api/carrito/2/productos/1 HTTP/1.1 content-type:application/json
+
+### Delete Carrito DELETE http://localhost:8080/api/carrito/2 HTTP/1.1 content-type:application/json
+
+### Delete con id producto DELETE http://localhost:8080/api/carrito/1/productos/2 HTTP/1.1 content-type:application/json
